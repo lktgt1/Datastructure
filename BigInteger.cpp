@@ -36,11 +36,3 @@ public:
 		cout << val;
 	}
 };
-
-int main(){
-	string a,b;
-	cin >> a >> b;
-	BigInteger *bi = new BigInteger(a);
-	bi->add(b);
-	bi->show();
-}
